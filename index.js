@@ -48,7 +48,7 @@ function  clickButton() {
     var correctinput = parseInt(thmasInputText.value);  // Get the trimmed input value
     var URL = "https://ameur-bellil.github.io/congrats/";
 
-    if (correctInput === 4) {
+    if (correctinput === 4) {
         var win = window.open(URL, "_blank");
     } else {
         window.alert("Try again");
