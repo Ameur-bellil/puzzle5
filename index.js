@@ -45,12 +45,11 @@ if (!thmasButton || !thmasInputText) {
 }
 
 function  clickButton() {
-    var correctInput = thmasInputText.value.trim();  // Get the trimmed input value
+    var correctinput = parseInt(thmasInputText.value);  // Get the trimmed input value
     var URL = "https://ameur-bellil.github.io/congrats/";
 
-    if (correctInput === "dsrarht") {
+    if (correctInput === 4) {
         var win = window.open(URL, "_blank");
-        console.log("Correct input:", correctInput);
     } else {
         window.alert("Try again");
     }
