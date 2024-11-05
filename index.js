@@ -44,8 +44,7 @@ if (!thmasButton || !thmasInputText) {
     console.error('Elements not found!');
 }
 
-// Attach the click event to the button
-thmasButton.onclick = function() {
+function  clickButton() {
     var correctInput = thmasInputText.value.trim();  // Get the trimmed input value
     var URL = "https://ameur-bellil.github.io/congrats/";
 
