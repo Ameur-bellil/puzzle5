@@ -15,15 +15,15 @@
   --text-color-light: hsl(var(--hue), 4%, 55%);
 
   /*Green gradient*/
-  
-  
+
+
   /*Red gradient*/
   /* --body-color: linear-gradient(90deg, hsl(360, 28%, 40%) 0%, hsl(18, 28%, 40%) 100%);
   --container-color: linear-gradient(136deg, hsl(360, 28%, 35%) 0%, hsl(18, 28%, 35%) 100%); */
 
   /*Black solid*/
-   --body-color: #1E1E1E;
-  --container-color: hsl(60, 2%, 9%); 
+  --body-color: #1E1E1E;
+  --container-color: hsl(60, 2%, 9%);
 
   /*========== Font and typography ==========*/
   --body-font: 'Special Elite', sans-serif;
@@ -129,7 +129,7 @@ img{
 /*=============== HEADER ===============*/
 .header{
   width: 100%;
-  background: var(--body-color); 
+  background: var(--body-color);
   position: fixed;
   top: 0;
   left: 0;
@@ -252,9 +252,9 @@ img{
 
 .home__img{
   height: 250px;
-  
+
   justify-self: center;
-  
+
 }
 
 .home__indicator{
@@ -396,8 +396,8 @@ img{
     z-index: 5;
     pointer-events: auto;
     transform: translate(-50%, -50%) scale(1);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
-                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   .container{
     margin-left: var(--mb-1);
@@ -413,7 +413,7 @@ img{
     row-gap: 1rem;
   }
 
- 
+
 }
 
 /* For medium devices */
@@ -435,8 +435,8 @@ img{
     z-index: 5;
     pointer-events: auto;
     transform: translate(-50%, -50%) scale(1);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
-                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   body{
     margin: 0;
@@ -471,8 +471,8 @@ img{
   .home__img{
     height: 300px;
   }
-  
- 
+
+
 }
 @media screen and (max-width: 600px){
   .result_box{
@@ -491,8 +491,8 @@ img{
     z-index: 5;
     pointer-events: auto;
     transform: translate(-50%, -50%) scale(1);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
-                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 }
 /* For large devices */
@@ -514,8 +514,8 @@ img{
     border-radius: 2.5%;
     pointer-events: auto;
     transform: translate(-50%, -50%) scale(1);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
-                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   .bl{
     width: 100px;
@@ -565,13 +565,12 @@ img{
     padding-right: 2rem;
   }
 
-  
+
 }
 
 @media screen and (min-width: 1200px){
   .home__img{
-    height: 400px;
-    /* width: 700px; */
+    height: 420px;
   }
 }
 /*=============== begining box ===============*/
@@ -580,24 +579,24 @@ img{
   opacity:0;
 }
 .result_box  img{
- 
+
   margin: 30px 37% 0;
-  
+
   height:150px;
-  
-    transform: translateY(-1rem);
+
+  transform: translateY(-1rem);
 }
 .result_box .complete_text{
   font-size: 20px;
   font-weight: 500;
   color: #adadad;
   font-family: 'Times New Roman', Times, serif;
-  
+
 }
 .result_box .score_text p{
   margin: 20px 5px;
   font-size: 18px;
-  
+
   padding: 0 4px;
   color:#010101;
   font-family: 'Times New Roman', Times, serif;
@@ -629,134 +628,134 @@ img{
   background: #D7D6C1;
 }
 @media screen and (max-width: 600px){
-.shape1 {
-  position: absolute;
-  height:300px;
-  
-  z-index: 0;
-  width: 100px;
-  height:100px;
-  margin-top: 20%;
-  left: -15px;
-  opacity: 0.1;
-}
-.shape2 {
-  position: absolute;
-  height:300px;
-  
-  z-index: 0;
-  width: 100px;
-  height:100px;
-  margin-top: 180%;
-  left: 45px;
-  opacity: 0.1;
-}
-.shape4 {
-  position: absolute;
-  height:300px;
-  
-  z-index: 0;
-  width: 100px;
-  height:100px;
-  margin-top: 120%;
-  left: 300px;
-  opacity: 0.1;
-}
-.shape3 {
-  position: absolute;
-  height:300px;
-  
-  z-index: 0;
-  width: 100px;
-  height:100px;
-  margin-top: 190%;
-  left: 90%;
-  opacity: 0.1;
-}
-.shape5{
-  position: absolute;
-  height:300px;
-  
-  z-index: 0;
-  width: 100px;
-  height:100px;
-  margin-top:80%;
-  left: 80%;
-  opacity: 0.05;
-}
-.shape6 {
-  position: absolute;
-  height:300px;
-  
-  z-index: 0;
-  width: 100px;
-  height:100px;
-  margin-top:80%;
-  left: 80%;
-  opacity: 0.1;
-}
-.shape7 {
-  position: absolute;
-  height:300px;
-  
-  z-index: 0;
-  width: 100px;
-  height:100px;
-  margin-top: 130%;
-  left: 300px;
-  opacity: 0.1;
-}
-.shape8 {
-  position: absolute;
-  height:300px;
-  
-  z-index: 0;
-  width: 100px;
-  height:100px;
-  margin-top: 95%;
-  left: 5%;
-  opacity: 0.1;
-}
-.shape9 {
-  position: absolute;
-  height:300px;
-  
-  z-index: 0;
-  width: 100px;
-  height:100px;
-  margin-top: 125%;
-  left: 15%;
-  opacity: 0.1;
-}
-.shape10{
-  position: absolute;
-  height:300px;
-  
-  z-index: 0;
-  width: 100px;
-  height:100px;
-  margin-top: 15%;
-  left: 85%;
-  opacity: 0.1;
-}
-
-}
-@media screen and (min-width: 600px){
   .shape1 {
     position: absolute;
     height:300px;
-    
+
     z-index: 0;
     width: 100px;
     height:100px;
-    margin-top: 10%;
+    margin-top: 20%;
     left: -15px;
     opacity: 0.1;
   }
   .shape2 {
     position: absolute;
     height:300px;
-    
+
+    z-index: 0;
+    width: 100px;
+    height:100px;
+    margin-top: 180%;
+    left: 45px;
+    opacity: 0.1;
+  }
+  .shape4 {
+    position: absolute;
+    height:300px;
+
+    z-index: 0;
+    width: 100px;
+    height:100px;
+    margin-top: 120%;
+    left: 300px;
+    opacity: 0.1;
+  }
+  .shape3 {
+    position: absolute;
+    height:300px;
+
+    z-index: 0;
+    width: 100px;
+    height:100px;
+    margin-top: 70%;
+    left: 50px;
+    opacity: 0.1;
+  }
+  .shape5{
+    position: absolute;
+    height:300px;
+
+    z-index: 0;
+    width: 100px;
+    height:100px;
+    margin-top:17%;
+    left: 100px;
+    opacity: 0.1;
+  }
+  .shape6 {
+    position: absolute;
+    height:300px;
+
+    z-index: 0;
+    width: 100px;
+    height:100px;
+    margin-top: 15%;
+    left:300px;
+    opacity: 0.1;
+  }
+  .shape7 {
+    position: absolute;
+    height:300px;
+
+    z-index: 0;
+    width: 100px;
+    height:100px;
+    margin-top: 130%;
+    left: 300px;
+    opacity: 0.1;
+  }
+  .shape8 {
+    position: absolute;
+    height:300px;
+
+    z-index: 0;
+    width: 100px;
+    height:100px;
+    margin-top: 15%;
+    left: 85%;
+    opacity: 0.1;
+  }
+  .shape9 {
+    position: absolute;
+    height:300px;
+
+    z-index: 0;
+    width: 100px;
+    height:100px;
+    margin-top: 75%;
+    left: 85%;
+    opacity: 0.1;
+  }
+  .shapeCode{
+    position: absolute;
+    height:300px;
+
+    z-index: 0;
+    width: 100px;
+    height:100px;
+    margin-top: 15%;
+    left: 10%;
+    opacity: 0.05;
+  }
+
+}
+@media screen and (min-width: 600px){
+  .shape1 {
+    position: absolute;
+    height:300px;
+
+    z-index: 0;
+    width: 100px;
+    height:100px;
+    margin-top: 20%;
+    left: -15px;
+    opacity: 0.1;
+  }
+  .shape2 {
+    position: absolute;
+    height:300px;
+
     z-index: 0;
     width: 100px;
     height:100px;
@@ -767,7 +766,7 @@ img{
   .shape3 {
     position: absolute;
     height:300px;
-    
+
     z-index: 0;
     width: 100px;
     height:100px;
@@ -778,51 +777,51 @@ img{
   .shape4 {
     position: absolute;
     height:300px;
-    
+
     z-index: 0;
     width: 100px;
     height:100px;
-    margin-top: 25%;
-    left: 75%;
+    margin-top: 50%;
+    left: 25%;
     opacity: 0.2;
   }
   .shape5{
     position: absolute;
     height:300px;
-    
+
     z-index: 0;
     width: 100px;
     height:100px;
-    margin-top: 39%;
-    left:90%;
+    margin-top: 40%;
+    left:80%;
     opacity: 0.2;
   }
   .shape6{
     position: absolute;
     height:300px;
-    
+
     z-index: 0;
     width: 200px;
     height:150px;
-    margin-top: 35%;
+    margin-top: 40%;
     left: 85%;
     opacity: 0.2;
   }
   .shape7 {
     position: absolute;
     height:300px;
-    
+
     z-index: 0;
     width: 100px;
     height:100px;
-    margin-top: 40%;
-    left: 5%;
+    margin-top: 53%;
+    left: 25%;
     opacity: 0.15;
   }
   .shape8 {
     position: absolute;
     height:300px;
-    
+
     z-index: 0;
     width: 100px;
     height:100px;
@@ -833,24 +832,24 @@ img{
   .shape9{
     position: absolute;
     height:300px;
-    
+
     z-index: 0;
     width: 100px;
     height:100px;
     margin-top: 35%;
     left: 7%;
-    opacity: 0.1;
+    opacity: 0.2;
   }
-  .shape10{
+  .shapeCode{
     position: absolute;
     height:300px;
-    
+
     z-index: 0;
     width: 100px;
     height:100px;
-    margin-top: 20%;
-    left: 9%;
-    opacity: 0.1;
+    margin-top: 55%;
+    left: 90%;
+    opacity: 0.05;
   }
-
 }
+
