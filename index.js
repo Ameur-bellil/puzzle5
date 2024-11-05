@@ -45,15 +45,15 @@ if (!thmasButton || !thmasInputText) {
 }
 
 function  clickButton() {
-    var correctinput = parseInt(thmasInputText.value);  // Get the trimmed input value
-    var URL = "https://ameur-bellil.github.io/congrats/";
+    const correctInput = parseInt(thmasInputText.value);
+    const URL = "https://ameur-bellil.github.io/end/";
 
-    if (correctinput === 4) {
+    if (correctInput === 4) {
         var win = window.open(URL, "_blank");
     } else {
         window.alert("Try again");
     }
-};
+}
 /*=============== SHOW MENU ===============*/
 const navMenu = document.getElementById('nav-menu'),
       navToggle = document.getElementById('nav-toggle'),
