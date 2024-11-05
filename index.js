@@ -39,16 +39,23 @@ const thmasInputText = document.querySelector('#thmas-input-text');
 
 thmasButton.addEventListener('click', clickButton);
 
-function clickButton() {
-    var URL = "https://ameur-bellil.github.io/end/" ;
-    var correctinput = parseInt(thmasInputText.value);
-
-    if (correctinput === 4) {
-        var win = window.open(URL, "_blank");
-    }else{
-        window.alert("Try again")
-    }
+// Check if elements are found
+if (!thmasButton || !thmasInputText) {
+    console.error('Elements not found!');
 }
+
+// Attach the click event to the button
+thmasButton.onclick = function() {
+    var correctInput = thmasInputText.value.trim();  // Get the trimmed input value
+    var URL = "https://ameur-bellil.github.io/congrats/";
+
+    if (correctInput === "dsrarht") {
+        var win = window.open(URL, "_blank");
+        console.log("Correct input:", correctInput);
+    } else {
+        window.alert("Try again");
+    }
+};
 /*=============== SHOW MENU ===============*/
 const navMenu = document.getElementById('nav-menu'),
       navToggle = document.getElementById('nav-toggle'),
