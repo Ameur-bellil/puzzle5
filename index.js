@@ -45,8 +45,8 @@ if (!thmasButton || !thmasInputText) {
 }
 
 function  clickButton() {
-    const correctInput = parseInt(thmasInputText.value);
     const URL = "https://ameur-bellil.github.io/end/";
+    const correctInput = parseInt(thmasInputText.value.trim());
 
     if (correctInput === 4) {
         var win = window.open(URL, "_blank");
